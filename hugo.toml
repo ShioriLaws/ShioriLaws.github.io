@@ -1,0 +1,57 @@
+baseURL = 'https://shiori-learns.github.io/'
+languageCode = 'ja'
+title = "Shiori's Learning Log"
+theme = 'PaperMod'
+
+# Content directory is in Obsidian vault
+contentDir = '/Users/shiori/Desktop/KM/Public'
+
+# Enable Japanese search
+hasCJKLanguage = true
+
+[params]
+  description = "Learning in Public - 音楽、ナレッジマネジメント、日々の学び"
+  author = "Shiori"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+
+  [params.homeInfoParams]
+    Title = "Welcome"
+    Content = "音楽、ナレッジマネジメント、その他の学びを公開しています。"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/shiori-learns"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Music"
+    url = "/categories/music/"
+    weight = 2
+  [[menu.main]]
+    name = "Knowledge"
+    url = "/categories/knowledge-management/"
+    weight = 3
+  [[menu.main]]
+    name = "Archives"
+    url = "/archives/"
+    weight = 10
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"

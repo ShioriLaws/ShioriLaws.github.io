@@ -3,8 +3,9 @@ languageCode = 'ja'
 title = "Shiori's Learning Log"
 theme = 'PaperMod'
 
-# Content directory is in Obsidian vault
-contentDir = '/Users/shiori/Desktop/KM/Public'
+# Content directory (default: content/)
+# Note: For local preview with vault files, you can temporarily set:
+# contentDir = '/Users/shiori/Desktop/KM/Public'
 
 # Enable Japanese search
 hasCJKLanguage = true

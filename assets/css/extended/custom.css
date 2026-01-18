@@ -1,0 +1,61 @@
+/* Custom font sizes for PaperMod */
+:root {
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 8px;
+    --theme: rgb(255, 255, 255);
+    --entry: rgb(255, 255, 255);
+    --primary: rgb(30, 30, 30);
+    --secondary: rgb(108, 108, 108);
+    --tertiary: rgb(214, 214, 214);
+    --content: rgb(31, 31, 31);
+    --hljs-bg: rgb(28, 29, 33);
+    --code-bg: rgb(245, 245, 245);
+    --border: rgb(238, 238, 238);
+}
+
+/* Reduce font size for desktop */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+
+    .post-content,
+    .post-single .post-content {
+        font-size: 15px !important;
+        line-height: 1.6;
+    }
+
+    /* All heading styles */
+    h1,
+    .post-title,
+    .post-single h1 {
+        font-size: 24px !important;
+    }
+
+    h2,
+    .post-single h2 {
+        font-size: 20px !important;
+    }
+
+    h3,
+    .post-single h3 {
+        font-size: 18px !important;
+    }
+
+    h4,
+    .post-single h4 {
+        font-size: 16px !important;
+    }
+
+    h5 {
+        font-size: 15px !important;
+    }
+
+    h6 {
+        font-size: 14px !important;
+    }
+}

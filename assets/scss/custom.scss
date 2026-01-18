@@ -1,0 +1,22 @@
+/* Custom font sizes for desktop */
+@media (min-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+
+    article.article-content {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+}

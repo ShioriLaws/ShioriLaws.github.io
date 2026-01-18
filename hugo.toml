@@ -1,17 +1,14 @@
 baseURL = 'https://shiorilaws.github.io/'
-languageCode = 'ja'
-title = "Shiori's Learning Log"
 theme = 'PaperMod'
 
-# Content directory (default: content/)
-# Note: For local preview with vault files, you can temporarily set:
-# contentDir = '/Users/shiori/Desktop/KM/Public'
+# Default language
+defaultContentLanguage = 'ja'
+defaultContentLanguageInSubdir = false
 
 # Enable Japanese search
 hasCJKLanguage = true
 
 [params]
-  description = "Learning in Public - 音楽、ナレッジマネジメント、日々の学び"
   author = "Shiori"
   ShowReadingTime = true
   ShowShareButtons = false
@@ -20,31 +17,9 @@ hasCJKLanguage = true
   ShowCodeCopyButtons = true
   defaultTheme = "auto"
 
-  [params.homeInfoParams]
-    Title = "Welcome"
-    Content = "音楽、ナレッジマネジメント、その他の学びを公開しています。"
-
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/shiori-learns"
-
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Music"
-    url = "/categories/music/"
-    weight = 2
-  [[menu.main]]
-    name = "Knowledge"
-    url = "/categories/knowledge-management/"
-    weight = 3
-  [[menu.main]]
-    name = "Archives"
-    url = "/archives/"
-    weight = 10
 
 [taxonomies]
   category = "categories"
@@ -56,3 +31,66 @@ hasCJKLanguage = true
       unsafe = true
   [markup.highlight]
     style = "monokai"
+
+# ===================
+# Language Settings
+# ===================
+
+[languages]
+  [languages.ja]
+    languageCode = 'ja'
+    languageName = '日本語'
+    weight = 1
+    title = "Shiori's Learning Log"
+
+    [languages.ja.params]
+      description = "Learning in Public - 音楽、ナレッジマネジメント、日々の学び"
+      [languages.ja.params.homeInfoParams]
+        Title = "Welcome"
+        Content = "音楽、ナレッジマネジメント、その他の学びを公開しています。"
+
+    [[languages.ja.menu.main]]
+      name = "ホーム"
+      url = "/"
+      weight = 1
+    [[languages.ja.menu.main]]
+      name = "音楽"
+      url = "/categories/music/"
+      weight = 2
+    [[languages.ja.menu.main]]
+      name = "ナレッジ"
+      url = "/categories/knowledge-management/"
+      weight = 3
+    [[languages.ja.menu.main]]
+      name = "アーカイブ"
+      url = "/archives/"
+      weight = 10
+
+  [languages.en]
+    languageCode = 'en'
+    languageName = 'English'
+    weight = 2
+    title = "Shiori's Learning Log"
+
+    [languages.en.params]
+      description = "Learning in Public - Music, Knowledge Management, and Daily Learnings"
+      [languages.en.params.homeInfoParams]
+        Title = "Welcome"
+        Content = "Sharing my journey in music, knowledge management, and other learnings."
+
+    [[languages.en.menu.main]]
+      name = "Home"
+      url = "/en/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Music"
+      url = "/en/categories/music/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Knowledge"
+      url = "/en/categories/knowledge-management/"
+      weight = 3
+    [[languages.en.menu.main]]
+      name = "Archives"
+      url = "/en/archives/"
+      weight = 10

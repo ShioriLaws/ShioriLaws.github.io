@@ -1,5 +1,5 @@
 ---
-title: "Building a Learning in Public Blog with Claude Code"
+title: "How I Built This Blog with Claude Code"
 date: 2025-01-15
 categories: ["vibe-coding"]
 tags: ["claude", "agentic-ai", "hugo", "python", "obsidian"]
@@ -9,71 +9,70 @@ draft: false
 
 > Learned: 2025-01-15 / Published: 2025-01-15
 
-## What I Wanted to Achieve
+## The Goal
 
-With the theme of "learning in public this year," I wanted to organize and refine learning notes from my Obsidian vault and publish them as a blog.
+This year I committed to learning in public. I wanted a simple pipeline: take the messy learning notes in my Obsidian vault, clean them up, and publish them as blog posts.
 
-The ideal workflow:
-1. Record daily learning in Obsidian
-2. Refine with AI to make it more readable
-3. Publish on GitHub Pages
+The dream workflow:
+1. Jot down notes in Obsidian throughout the day
+2. Polish them with AI help
+3. Push to GitHub Pages
 
-## Collaborating with Claude Code
+## Building It with Claude Code
 
-I built the system through dialogue using the Claude Code extension in VS Code.
+I paired with Claude Code (the VS Code extension) to build the whole system through conversation.
 
-### What I Built
+### What We Made
 
-**1. Python CLI Tool (`lip`)**
-- `lip scan` - Scan the vault for notes ready to publish
-- `lip review` - Privacy check (detecting phone numbers, addresses, passwords, etc.)
-- `lip convert` - Convert from Obsidian format to Hugo format
+**1. A Python CLI (`lip`)**
+- `lip scan` - finds publishable notes in my vault
+- `lip review` - flags potential privacy issues (phone numbers, addresses, etc.)
+- `lip convert` - transforms Obsidian markdown into Hugo-compatible format
 
-**2. Hugo Blog**
-- This runs a local Hugo server that dynamically converts Obsidian MD files to HTML
+**2. Hugo Blog Setup**
+- Local Hugo server for previews
 - PaperMod theme
-- Japanese language support
-- GitHub Actions deployment setup
+- Japanese language support baked in
+- GitHub Actions for automatic deployment
 
 **3. CLAUDE.md**
-- Contains editing guidelines and project information
-- Claude Code reads this each time for consistent responses
-- I want to gradually enrich CLAUDE.md to reflect my personal style
+- A file containing my editing preferences and project context
+- Claude reads this at the start of each session for consistency
+- Over time, I'm hoping this becomes a kind of "style guide" that captures my voice
 
-### Hybrid Approach
+### Why Hybrid, Not Fully Automated
 
-Initially I thought about "full automation," but settled on a "hybrid approach" where the editing part is done through dialogue with AI.
+I originally planned to automate everything, but landed on a hybrid approach instead.
 
-- **Automated**: Scanning, privacy check, conversion, publishing
-- **Dialogue**: Note editing (conversing with Claude Code)
+- **Automated**: scanning, privacy checks, format conversion, deployment
+- **Human-in-the-loop**: the actual editing (I talk through changes with Claude)
 
-This way there's no API cost, and dialogue allows me to convey subtle nuances better.
+This keeps API costs at zero, and honestly, the back-and-forth helps me think through what I actually want to say.
 
-### Design Decisions
+### A Few Design Choices
 
-**Blog Post Location**
+**Where to Store Posts**
 
-Initially I placed articles inside the Hugo project, but changed to a `Public/` folder within the Obsidian vault.
+I started by putting posts inside the Hugo project folder. Bad idea—I couldn't link to them from my other Obsidian notes. Now they live in a `Public/` folder inside my vault:
 
 ```
 /Users/shiori/Desktop/KM/
-├── Public/              ← Blog posts
+├── Public/              ← blog posts live here
 │   └── posts/
-├── 05_Inbox/            ← Learning notes
+├── 05_Inbox/            ← raw learning notes
 └── ...
 ```
 
-This lets me edit articles within Obsidian and link to them from other notes.
+**Privacy Detection Tweaks**
 
-**Privacy Detection Tuning**
+The initial regex was flagging TikTok URLs and timestamps as "phone numbers." Had to tune the patterns to ignore URLs.
 
-Initially, TikTok URLs and timestamps were being falsely detected as "phone numbers."
-I adjusted the patterns to exclude URLs.
-Originally, "privacy awareness" meant not just phone numbers and passwords, but also excluding overly private or candid stories—but I'll make that a long-term goal.
+I'd also love to eventually catch "overly personal" content—not just phone numbers, but stories that are too raw to publish. That's a longer-term project.
 
-## Reflections
+## Looking Back
 
-This is my second time building a system through collaboration with Agentic AI. The first time was an Obsidian plugin that searches through the last 30 days of daily notes for things that look like problems, sends them to an AI via API, and creates a project plan to solve those problems. I haven't published that yet, but I want to document that process too. Though "process" might be misleading—Claude did everything almost instantly...
+This is my second time building something with an AI agent. The first was an Obsidian plugin that scans my daily notes for recurring frustrations and generates project plans to fix them. (Haven't published that one yet, but I should write it up too. Though "write it up" undersells it—Claude basically did the whole thing.)
 
-This article itself was drafted by asking Claude to "write up today's collaboration," which I then edited and added to.
-I'd been trying to write a blog for years but couldn't—now everything is moving at an unbelievably fast pace. What a wonderful time to be a lazy person like me...
+Even this post started as me asking Claude to summarize what we built today, then I added my own thoughts.
+
+I've been meaning to start a blog for years and never got around to it. Now things are moving so fast I can barely keep up. Great time to be lazy.

@@ -1,5 +1,5 @@
 ---
-title: "How to Play Jazz Piano in 2 Years: The Stock Skill Vocabulary Approach"
+title: "A Framework for Learning Jazz Piano: Stock Skill Vocabulary"
 date: 2025-01-16
 categories: ["music"]
 tags: ["jazz-piano", "practice-method", "vocabulary", "learning-method"]
@@ -9,128 +9,114 @@ draft: false
 
 > Learned: 2025-01-10 / Published: 2025-01-16
 
-## The Inspiration
+## Where This Came From
 
-I watched a YouTube video by Charlie Tran about "going from zero jazz piano skills to gigging in 2 years."
+I stumbled on a YouTube video by Charlie Tran where he breaks down how he went from zero jazz piano skills to gigging in just two years.
 
 {{< youtube RiCQYWPEhjc >}}
 
-His approach is called "Stock Skill Vocabulary"—a method of systematically breaking down jazz piano skills and accumulating them as vocabulary.
+His method is called "Stock Skill Vocabulary"—basically, treating jazz piano like a language where you systematically build up a library of musical phrases and patterns.
 
-This has similarities to Sean Wilson's approach, whom I've been watching on YouTube lately. He says everyone wants to learn tensions, but you need to understand basic triad progressions first. Even long-time intermediate players have areas with learning gaps, according to him.
+This resonates with what I've been hearing from Sean Wilson (another YouTuber I've been following). His point: everyone wants to jump straight to tensions and fancy extensions, but if you can't nail basic triad progressions, you're building on sand. Even longtime intermediate players often have blind spots in the fundamentals.
 
-## Why Vocabulary?
+## Why "Vocabulary"?
 
-A common mistake when learning jazz piano is learning "tensions" first.
+Here's the trap: you learn a bunch of cool tensions and altered chords, but when you try to use them in real time, you freeze. Why? Because **you can't decorate a house you haven't built yet.**
 
-But in reality, **if you don't understand chord progressions with triads, you can't add tensions on the fly**.
+If triads and basic progressions aren't automatic, adding tensions on the fly is hopeless.
 
-Like language learning, it's most efficient to gradually build basic grammar (triad progressions) and vocabulary (various voicings, licks).
+Think of it like learning a language. You need grammar (how progressions work) *and* vocabulary (specific voicings, licks, patterns). Build both systematically.
 
-## The 4 Categories of Stock Skill Vocabulary
+## The Four Categories
 
-Charlie Tran categorizes jazz piano skills into four areas:
+Charlie breaks jazz piano skills into four buckets:
 
 ### 1. Melody
 
-**General Piano Clichés:**
+**General piano stuff:**
 - Chromaticism
 - Arpeggios
-- Scales (major & minor)
+- Major and minor scales
 
-**Jazz-specific Clichés:**
-- Melodic clichés (stock of jazz-like phrases)
-- Analyzing melodies of existing songs to extract patterns
+**Jazz-specific:**
+- Stock melodic phrases (the "licks" everyone talks about)
+- Extracting patterns from tunes you transcribe
 
 ### 2. Bass
 
-**Walking Bass:**
-- Triads, scalar approaches
-- Roots, 5ths, chromatic approaches
+**Walking bass:**
+- Triadic and scalar movement
+- Root, fifth, chromatic approach notes
 
-**Half Note Bass:**
-- Roots, 5ths, chromatic approaches
+**Half-note bass:**
+- Same toolkit, slower rhythm
 
 ### 3. Voicing
 
-**One-hand Voicings:**
-- Rooted voicing (includes root)
-- Bass Shells
-  - 2-note: Bass + 1 Essential Tone (e.g., I + VII)
-  - 3-note: Bass + 2 Essential Tones (e.g., I + III + VII)
-- Rootless voicing (omitting root)
-- Inversions Type A, B, C
+**One hand:**
+- Rooted voicings
+- Shell voicings (2-note: root + one guide tone; 3-note: root + two guide tones)
+- Rootless voicings
+- Inversions (Type A, B, C)
 
-**Two-hand Voicings:**
-- Open voicing
-  - 4-note, 5-note, 6-note stocks
-- Closed Voicing
-  - Block chords
-  - Drop 2
-- Spread voicing (Melody-driven Open voicing)
-  - Functional level (no extensions)
+**Two hands:**
+- Open voicings (4-, 5-, 6-note)
+- Closed voicings (block chords, drop 2)
+- Spread voicings (melody-driven, open)—this is Charlie's own categorization from his curriculum:
+  - Functional (no extensions)
   - Authentic (with tensions)
-  - Pro (with altered notes)
+  - Pro (with alterations)
 
-The key point is that everything boils down to **Shells → Essential Tones**.
+The throughline: **start with shells, add essential tones, expand from there.**
 
 ### 4. Rhythm
 
-**Comping Patterns:**
+**Comping patterns:**
 - Red Garland style
 - Charleston
 - Reverse Charleston
 
-**Swing Rhythm:**
-- Rhythmic patterns with swing feel
+**Swing feel:**
+- Internalizing that triplet-based groove
 
-## Practice: 4 Stock Styles
+## Putting It Together: 4 Stock Styles
 
-Four basic styles for applying learned vocabulary:
+Once you've got vocabulary in each category, you combine them:
 
-1. **RH: Melody, LH: Bass**
-   - Right hand plays melody, left hand plays bass line
-2. **RH: Melody, LH: Comping**
-   - Right hand plays melody, left hand comps chords
-3. **RH: Comping, LH: Bass**
-   - Right hand comps chords, left hand plays bass line
-4. **Spread Voicing**
-   - Two-handed melody-driven open voicing
+1. **RH melody + LH bass** — classic solo piano texture
+2. **RH melody + LH comping** — melody over chord stabs
+3. **RH comping + LH bass** — accompaniment mode
+4. **Spread voicing** — two-handed, melody-driven open voicings
 
-### Advanced Styles
+**Advanced styles:**
+- Two-handed comping
+- Block chord melody (locked hands)
+- 3-part bossa (RH does melody + comping in different rhythms, LH walks bass)
 
-- **Two-handed comping** - Comping with both hands
-- **Block Chord Melody** - Melody with continuous chord accompaniment
-- **3 Part Bossa** - Right hand plays melody + comping in different rhythm, left hand plays bass
+## How This Connects to My Practice
 
-## Connecting to My Own Learning
+This framework clicked for me because it maps directly onto what I've been doing with transcription.
 
-This approach connects to my previous work transcribing "Encourage Yourself."
+When I transcribed "Encourage Yourself," I was essentially:
+- Building melodic vocabulary by catching the subtle runs
+- Learning voicing vocabulary by figuring out how the arrangement stays sparse but punchy
 
-Transcription work helps build such vocabulary. Specifically:
-- Subtle nuances of vocal runs → Stock of melodic clichés
-- Skills to insert cool licks while keeping note density low → Stock of voicings
+Sean Wilson's "stacking" technique (doubling notes in a voicing) and his approach to extensions? Those slot right into the Voicing category here.
 
-The "Stacking" (doubling notes within a voicing) and "Extensions" that Sean Wilson talks about also fall under the "Voicing" category in this Stock Skill Vocabulary framework.
+## Takeaway
 
-## Summary
+Stop practicing randomly. Instead:
 
-Jazz piano improvement isn't about practicing aimlessly:
+1. **Categorize** your skills (Melody, Bass, Voicing, Rhythm)
+2. **Build vocabulary** in each area deliberately
+3. **Apply** through the four stock styles
 
-1. **Break skills into 4 categories** (Melody, Bass, Voicing, Rhythm)
-2. **Systematically build vocabulary in each category**
-3. **Practice with 4 Stock Styles**
-
-This approach seems effective.
-
-I still need to expand my vocabulary, but I feel like I now have a clear roadmap.
-
-Right now I'm practicing and transcribing randomly, but I want to create a menu and plan that balances all four categories.
+I've got a clearer roadmap now. Next step: build a practice routine that hits all four categories instead of just noodling on whatever sounds fun.
 
 ---
 
 **Reference:**
 - [How I Went From 0 Jazz Piano Skills to Gigging in 2 Years - Charlie Tran](https://www.youtube.com/watch?v=RiCQYWPEhjc)
 
-**Related Posts:**
-- [Copying a Gospel Song: The Day That Led to MIDI Logger Improvements](/en/posts/2025-01-15-encourage-yourself-copy-midi-logger/)
+**Related:**
+- [Transcribing Gospel Music (And Accidentally Improving an Obsidian Plugin)](/en/posts/2025-01-15-encourage-yourself-copy-midi-logger/)
